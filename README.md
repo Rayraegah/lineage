@@ -1,6 +1,7 @@
-# Mixgenes – A Genetic Algorithm for Breeding
+# Lineage
 
-This project contains the genetic algorithm that is used by cryptokitties to breed cats.
+Lineage is a python port of the genetic algorithm used by cryptokitties to breed cats.
+![Array of crypto kitties](static/cryptocats.png)
 
 ## Pseudo Code
 
@@ -57,3 +58,7 @@ So you may have your genes in different places by the time this happens. The fir
 Once the precondition passes, we do a mutation with `25%` probability if the value is less then `23`, and half of that otherwise. And the mutation is just as predictable, `mutation = (gene1 / 2) + 16`.
 
 After that the last section is easy. Give your baby some genes! If there was a mutation, they get that. Otherwise, there’s a `50%` chance for each parent.
+
+## License
+
+See [LICENSE](LICENSE)
